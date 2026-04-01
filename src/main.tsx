@@ -61,9 +61,9 @@ const demo: AnyNode = {
         {
           type: 'image',
           image: {
-            url: 'https://images.unsplash.com/photo-1699950866841-e0de4adb9123?q=80&w=1200&auto=format&fit=crop',
-            alt: 'A raven perched at autumn',
-            caption: 'Credits to Paddy Pohlog | Unsplash',
+            url: 'https://images.unsplash.com/photo-1492037766660-2a56f9eb3fcb?q=80&w=1200&auto=format&fit=crop',
+            alt: 'Blue art neon sign turned on',
+            caption: 'Photo by Unsplash',
           },
         },
       ],
