@@ -1,0 +1,97 @@
+.root {
+  margin: 0;
+}
+
+/* Sensible defaults for bare HTML elements rendered inside .root */
+.root h1,
+.root h2,
+.root h3,
+.root h4,
+.root h5,
+.root h6 {
+  margin: 0 0 0.5em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.root h1 {
+  font-size: 2.25rem;
+}
+.root h2 {
+  font-size: 1.75rem;
+}
+.root h3 {
+  font-size: 1.375rem;
+}
+
+.root p {
+  margin: 0 0 1em;
+  line-height: 1.7;
+}
+
+.root p:last-child {
+  margin-bottom: 0;
+}
+
+.root ul,
+.root ol {
+  margin: 0 0 1em;
+  padding-left: 1.5em;
+}
+
+.root li {
+  margin-bottom: 0.25em;
+  line-height: 1.6;
+}
+
+.root strong {
+  font-weight: 600;
+}
+
+.root em {
+  font-style: italic;
+}
+
+.root a {
+  color: #4f46e5;
+  text-decoration: underline;
+}
+
+.root a:hover {
+  color: #3730a3;
+}
+
+.root code {
+  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, monospace;
+  font-size: 0.875em;
+  background-color: #f3f4f6;
+  padding: 0.125em 0.375em;
+  border-radius: 0.25rem;
+}
+
+/* Fenced code blocks — <pre><code> produced by react-markdown */
+.root pre {
+  margin: 0 0 1em;
+  padding: 1.25rem 1.5rem;
+  background-color: #0f172a;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  line-height: 1.7;
+}
+
+.root pre code {
+  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, monospace;
+  font-size: 0.8125rem;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  color: #e2e8f0;
+}
+
+.root blockquote {
+  margin: 0 0 1em;
+  padding-left: 1rem;
+  border-left: 3px solid #e5e7eb;
+  color: #6b7280;
+  font-style: italic;
+}
